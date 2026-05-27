@@ -369,6 +369,11 @@ main{
   text-align:center;
 }
 
+.contact .que{
+  text-align:center;
+  padding:0;
+}
+
 .contact p{
   text-align:center;
 }
