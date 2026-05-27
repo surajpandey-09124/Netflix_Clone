@@ -132,6 +132,7 @@ header .logo{
 }
 
 .content input{
+  width:40%;
   background:black;
   font-weight:bold;
   border:1px gray solid;
@@ -139,6 +140,7 @@ header .logo{
 }
 
 .content button{
+  width:35%;
   background:red;
   color:white;
   font-weight:bold;
@@ -256,7 +258,7 @@ footer{
 }
 
 .watch input{
-  width:300px;
+  width:40%;
   border:1px solid gray;
   background:black;
   color:white;
@@ -268,8 +270,9 @@ footer{
 }
 
 .watch button{
+  width:27%;
   height:8vh;
-  padding:0 10px;
+  padding:0 5px;
   margin-top:15px;
   border-radius:5px;
   background:red;
