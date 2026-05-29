@@ -323,24 +323,32 @@ footer{
   cursor:pointer;
 }
 
-@media (max-width:1250px){
+@media (max-width:1000px){
  header{
   padding:20px;
  }
 
-
- .sign{
-  justify-content: space-between;
+ .lang{
+  padding-left:30px;
  }
 
+ .banner{
+  height:auto;
+ }
+ 
  .content{
   width:90%;
  }
 
  .content button{
-  width:40%;
-  padding:0;
+  height:5vh;
+  width:35%;
  }
+
+ .sign{
+  justify-content:space-between;
+ }
+
 
  .content p{
   padding-top:10px;
@@ -352,7 +360,8 @@ footer{
  }
 
 main{
-  height:240vh;
+  width:100%;
+  height:auto;
 }
 
 .hero-section h2{
@@ -374,6 +383,11 @@ main{
   justify-content:center;
   align-items:center;
   gap:20px;
+}
+
+footer{
+  width:100%;
+  height:auto;
 }
 
 .watch p{
