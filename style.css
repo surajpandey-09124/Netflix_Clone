@@ -328,9 +328,6 @@ footer{
   padding:20px;
  }
 
- .banner{
-  height:80vh;
- }
 
  .sign{
   justify-content: space-between;
@@ -341,7 +338,7 @@ footer{
  }
 
  .content button{
-  width:30%;
+  width:40%;
   padding:0;
  }
 
@@ -384,7 +381,7 @@ main{
 }
 
 .watch button{
-  width:27%;
+  width:40%;
   padding:0;
 }
 
