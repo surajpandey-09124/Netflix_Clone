@@ -141,6 +141,8 @@ header .logo{
 
 .content button{
   width:20%;
+  height:5vh;
+  border-radius:5px;
   background:red;
   color:white;
   font-weight:bold;
@@ -341,7 +343,7 @@ footer{
  }
 
  .content button{
-  height:5vh;
+  height:6vh;
   width:35%;
  }
 
@@ -396,6 +398,7 @@ footer{
 
 .watch button{
   width:40%;
+  height:6vh;
   padding:0;
 }
 
@@ -422,5 +425,11 @@ footer{
 .eng{
   margin:10px auto;
 }
+}
+
+@media (max-width:500px){
+  .watch button,.content button{
+    height:5vh;
+  }
 }
 
