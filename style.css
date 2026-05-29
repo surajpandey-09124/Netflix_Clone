@@ -126,13 +126,13 @@ header .logo{
 
 .content input,.btn{
   height:5vh;
-  padding:0 10px;
   margin-top:15px;
   border-radius:5px;
 }
 
 .content input{
   width:40%;
+  padding:0 10px;
   background:black;
   font-weight:bold;
   border:1px gray solid;
@@ -140,7 +140,7 @@ header .logo{
 }
 
 .content button{
-  width:35%;
+  width:20%;
   background:red;
   color:white;
   font-weight:bold;
@@ -258,11 +258,11 @@ footer{
 }
 
 .watch input{
-  width:40%;
+  width:30%;
   border:1px solid gray;
   background:black;
   color:white;
-  height:8vh;
+  height:5vh;
   padding:0 10px;
   margin-top:15px;
   border-radius:5px;
@@ -270,9 +270,9 @@ footer{
 }
 
 .watch button{
-  width:27%;
-  height:8vh;
-  padding:0 5px;
+  width:18%;
+  height:5vh;
+  /* padding:0 5px; */
   margin-top:15px;
   border-radius:5px;
   background:red;
@@ -323,13 +323,26 @@ footer{
   cursor:pointer;
 }
 
-@media (max-width:768px){
+@media (max-width:1250px){
  header{
   padding:20px;
  }
 
+ .banner{
+  height:80vh;
+ }
+
+ .sign{
+  justify-content: space-between;
+ }
+
  .content{
   width:90%;
+ }
+
+ .content button{
+  width:30%;
+  padding:0;
  }
 
  .content p{
@@ -337,11 +350,12 @@ footer{
  }
 
  .content-section h2{
+  padding:0;
   text-align:center;
  }
 
 main{
-  height:250vh;
+  height:240vh;
 }
 
 .hero-section h2{
@@ -367,6 +381,11 @@ main{
 
 .watch p{
   text-align:center;
+}
+
+.watch button{
+  width:27%;
+  padding:0;
 }
 
 .contact .que{
